@@ -32,7 +32,7 @@ module.exports = appInfo => {
 
   config.mysql = {
     client: {
-      host: '47.103.140.189', 
+      host: '47.103.140.189',
       port: '3306',
       user: 'root',
       password: '123456',
@@ -65,7 +65,7 @@ module.exports = appInfo => {
   // config.cluster = {
   //   listen: {
   //     path: '',
-  //     port: 8000,
+  //     port: 7002,
   //     hostname: '127.0.0.1'
   //   }
   // }

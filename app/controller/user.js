@@ -1,6 +1,6 @@
 'use strict'
 
-const defaultAvatar = 'https://s.yezgea02.com/1615973940679/WeChat77d6d2ac093e247c361f0b8a7aeb6c2a.png'
+const defaultAvatar = 'https://raw.githubusercontent.com/momoknight/blog-images/main/avatar.png'
 
 const Controller = require('egg').Controller;
 
@@ -31,7 +31,7 @@ class UserController extends Controller {
     const result = await ctx.service.user.register({
       username,
       password,
-      signature: '世界和平。',
+      signature: 'hello, world',
       avatar: defaultAvatar
     });
 
