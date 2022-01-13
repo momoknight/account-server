@@ -1,6 +1,6 @@
 'use strict'
 
-const defaultAvatar = 'https://raw.githubusercontent.com/momoknight/blog-images/main/avatar.png'
+const defaultAvatar = 'https://gitee.com/momoknight/image/raw/master/avatar.png'
 
 const Controller = require('egg').Controller;
 
